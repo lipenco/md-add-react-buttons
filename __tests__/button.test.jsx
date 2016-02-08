@@ -1,3 +1,4 @@
+var button = require("./../src/index.js");
 
 describe("Button", function() {
   it("should pass", function() {
