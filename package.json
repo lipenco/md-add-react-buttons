@@ -1,9 +1,11 @@
 {
   "name": "md-add-react-buttons",
   "description": "material design add button component build with react.js",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "version": "0.0.0-semantically-released",
   "scripts": {
+    "prebuild": "rm -rf dist && mkdir dist",
+    "build": "babel src/index.js -o dist/index.js",
     "commit": "git-cz",
     "test": "jest",
     "coverage": "istanbul cover __tests__/button.test.jsx",
@@ -46,6 +48,7 @@
   "homepage": "https://github.com/lipenco/md-add-react-buttons#readme",
   "devDependencies": {
     "commitizen": "2.5.0",
+    "babel-cli": "^6.5.1",
     "cz-conventional-changelog": "1.1.5",
     "ghooks": "1.0.3",
     "istanbul": "0.4.2",
