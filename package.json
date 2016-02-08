@@ -1,0 +1,40 @@
+{
+  "name": "md-add-react-buttons",
+  "description": "material design add button component build with react.js",
+  "main": "src/index.js",
+  "version": "0.0.0-semantically-released",
+  "scripts": {
+    "commit": "git-cz",
+    "test": "npm test",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lipenco/md-add-react-buttons.git"
+  },
+  "keywords": [
+    "md-design",
+    "material",
+    "design",
+    "material",
+    "add",
+    "button"
+  ],
+  "author": "Magdalena Lipinska <mag.lipinska@gmail.com> (http://lipen.co/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lipenco/md-add-react-buttons/issues"
+  },
+  "homepage": "https://github.com/lipenco/md-add-react-buttons#readme",
+  "devDependencies": {
+    "commitizen": "2.5.0",
+    "cz-conventional-changelog": "1.1.5",
+    "jest-cli": "0.8.2",
+    "semantic-release": "^4.3.5"
+  },
+  "config": {
+     "commitizen": {
+       "path": "node_modules/cz-conventional-changelog"
+     }
+   }
+}
