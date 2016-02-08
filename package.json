@@ -26,8 +26,6 @@
     "url": "https://github.com/lipenco/md-add-react-buttons/issues"
   },
   "jest": {
-    "scriptPreprocessor": "<rootDir>/preprocessor.js",
-    "setupTestFrameworkScriptFile": "<rootDir>/test-configfile.js",
     "testPathIgnorePatterns": [
       "/node_modules/"
     ],
